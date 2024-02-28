@@ -4,8 +4,7 @@ $backgroundColor:#4e476d;
 .app{
     .container{
         //LOGIN & REGISTER 
-
-        .auth{
+        .auth {
             display:flex;
             flex-direction: column;
             align-items: center;
@@ -18,14 +17,14 @@ $backgroundColor:#4e476d;
                 color: rgb(215, 193, 255);
                 margin-bottom: 20px;
             }
-            form{
+            form {
                 display: flex;
                 flex-direction: column;
-                padding: 10px;
+                padding: 50px;
                 background-color: white;
                 width: 200px;
                 gap: 20px;
-            }
+            
             input{
                 padding: 10px;
                 border: none;
@@ -48,6 +47,8 @@ $backgroundColor:#4e476d;
                 font-size: 12px;
                 text-align: center;
             }
+            }
         }
+    //NAVBAR  
     }
 }
