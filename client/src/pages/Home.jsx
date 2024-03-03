@@ -64,7 +64,7 @@ const Home = () => {
     `,
     img: "https://images.pexels.com/photos/1381112/pexels-photo-1381112.jpeg?auto=compress&cs=tinysrgb&w=400",
   },
-  ]
+  ];
   
   return (
     <div className='home'>

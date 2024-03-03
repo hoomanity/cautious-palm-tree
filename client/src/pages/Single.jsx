@@ -1,4 +1,5 @@
 import React from 'react'
+import Menu from '../components/Menu'
 import Edit from '../img/edit.png'
 import Delete from '../img/delete.png'
 import {Link} from 'react-router-dom'
@@ -37,7 +38,7 @@ const Single = () => {
       </p>
     </p>
     </div>
-    <div className="menu">menu</div>
+    <Menu />
    </div>
   )
 }
