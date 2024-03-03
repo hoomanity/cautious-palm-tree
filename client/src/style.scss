@@ -245,10 +245,10 @@ $lightGreen: #b6e1f5;
         flex: 2;
         display: flex;
         flex-direction: column;
-        gap: 25px;
+        // gap: 25px;
 
         h1 {
-          font-size: 20px;
+          font-size: 24px;
           color: #555;
         }
         .post {
@@ -281,6 +281,36 @@ $lightGreen: #b6e1f5;
             }
           }
         }
+      }
+    }
+
+    // WRITE
+
+    .add {
+      margin-top: 20px;
+      display: flex;
+      gap: 20px;
+
+      .content {
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input {
+          padding: 10px;
+          border: 1px solid lightgray;
+        }
+        .editorContainer {
+          height: 300px;
+        }
+      }
+
+      .menu {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
       }
     }
   }
