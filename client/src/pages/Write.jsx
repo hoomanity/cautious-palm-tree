@@ -24,7 +24,7 @@ const Write = () => {
             <b>Visibility: </b> Public
           </span>
           <input style={{display:"none"}}  type="file" id="file" />
-          <label htmlFor="file">Upload Image</label>
+          <label className='file' htmlFor="file">Upload Image</label>
           <div className="buttons">
             <button>Save as a Draft</button>
             <button>Update</button>
@@ -32,18 +32,30 @@ const Write = () => {
         </div>
         <div className="item">
           <h1>Category</h1>
-          <input type="radio" name='cat' value="art" id='art'/>
-          <label htmlFor="art">Art</label>
-          <input type="radio" name='cat' value="print" id='print'/>
-          <label htmlFor="print">Print</label>
-          <input type="radio" name='cat' value="ball" id='ball'/>
-          <label htmlFor="ball">Ball</label>
-          <input type="radio" name='cat' value="mango" id='mango'/>
-          <label htmlFor="mango">Mango</label>
-          <input type="radio" name='cat' value="cat" id='cat'/>
-          <label htmlFor="cat">Cat</label>
-          <input type="radio" name='cat' value="food" id='food'/>
-          <label htmlFor="food">Food</label>
+          <div className="cat">
+            <input type="radio" name='cat' value="art" id='art'/>
+            <label htmlFor="art">Art</label>
+          </div>
+          <div className="cat">
+            <input type="radio" name='cat' value="print" id='print'/>
+            <label htmlFor="print">Print</label>
+          </div>
+          <div className="cat">
+            <input type="radio" name='cat' value="ball" id='ball'/>
+            <label htmlFor="ball">Ball</label>
+          </div>
+          <div className="cat">
+            <input type="radio" name='cat' value="mango" id='mango'/>
+            <label htmlFor="mango">Mango</label>
+          </div>
+          <div className="cat">
+            <input type="radio" name='cat' value="cat" id='cat'/>
+            <label htmlFor="cat">Cat</label>
+          </div>
+          <div className="cat">
+            <input type="radio" name='cat' value="food" id='food'/>
+            <label htmlFor="food">Food</label>
+          </div>
         </div>
       </div>
     </div>
