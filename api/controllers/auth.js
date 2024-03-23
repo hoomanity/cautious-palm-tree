@@ -1,5 +1,5 @@
 import {db} from "../db.js"
-import bcrypt from 'bcrypt';
+import bcrypt from "bcryptjs";
 export const register =(req,res)=>{
     // CHECK EXSISTING USER
     const q = "SELECT * FROM users WHERE email = ? OR USERNAME = ? "
