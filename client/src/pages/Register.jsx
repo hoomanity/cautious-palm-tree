@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import axios from "axios"
+import backendClient from '../utils/backendClient'
 
 
 const Register = () => {
@@ -19,7 +19,7 @@ setInputs(prev=>({...prev,[e.target.name]: e.target.value}))
   const handleSubmit = async e => {
     e.preventDefault()
     try {
-      const res = await axios.post("/auth/register", inputs)
+      const res = await backendClient.post("/auth/register", inputs)
       console.log(res)
     } catch (err) {
       console.log(err);
